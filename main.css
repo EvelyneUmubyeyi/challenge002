@@ -53,28 +53,26 @@ footer{
     
 }
 .fa-facebook-f{
-    padding: 0px 15px;
+    padding: 10px;
     color:hsl(223, 87%, 63%);
-    height: 2em;
-    border-radius: 50%;
-    align-items: center;
+    height: 1em;
+    width: 1em;
 }
 .fa-twitter{
-    padding: 0px 15px;
+    padding: 10px;
     color:hsl(223, 87%, 63%);
-    height: 2em;
-    border-radius: 50%;
-    align-items: center;
+    height: 1em;
+    width: 1em;
 }
 .fa-instagram{
-    padding: 0px 15px;
+    padding: 10px;
     color:hsl(223, 87%, 63%);
-    height: 2em;
-    border-radius: 50%;
-    align-items: center;
+    height: 1em;
+    width: 1em;
 }
 a{
     text-decoration: none;
+    padding:20px;
 
 }
 .copyright{
@@ -84,24 +82,47 @@ a{
     color: white;
     background-color: hsl(223, 87%, 63%);
     cursor: pointer;
+    border-radius: 30px;
 }
 .fa-twitter:hover{
     color: white;
     background-color: hsl(223, 87%, 63%);
     cursor: pointer;
+    border-radius: 30px;
 }
 .fa-instagram:hover{
     color: white;
     background-color: hsl(223, 87%, 63%);
     cursor: pointer;
+    border-radius: 30px;
 }
 @media screen and (max-width: 375px) {
     body{
         padding:0px;
         width: 375px;
     }
-
+/*adjust the image , font*/
+#success {
+    margin-left: -350px;
 }
+
+#error {
+    margin-left: 120px;
+}
+}
+#error {
+    color: hsl(354, 100%, 66%);
+    font-style: italic;
+    font-size: 12px;
+    line-height: 1cm;
+}
+
+#success {
+    color: hsl(98, 76%, 43%);
+    font-style: italic;
+    font-size: 12px;
+    line-height: 1cm;
+    }
 
    
    
